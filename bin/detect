@@ -1,3 +1,18 @@
 #!/usr/bin/env bash
 
+if [[ ! -f package.json ]]; then
+    echo "MUST be exists package.json"
+    exit 100
+fi
+
+if [[ ! -d contracts ]]; then
+    echo "MUST be exists contracts directory"
+    exit 100
+fi
+
+if [[ $(ls contracts/*.sol | wc -l) -eq 0 ]]; then
+    echo "MUST be exists *.sol contracts"
+    exit 100
+fi
+
 exit 0
