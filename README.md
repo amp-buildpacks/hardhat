@@ -1,5 +1,13 @@
-# hardhat
-A Cloud Native Buildpack for Hardhat
+# `ghcr.io/amp-buildpacks/hardhat`
+
+A Cloud Native Buildpack that provides the Hardhat Tool Suite
+
+## Configuration
+
+| Environment Variable      | Description                                                                                                                                                                                                                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `$BP_ENABLE_HARDHAT_PROCESS`    | Configure the Hardhat launch process, default: `false`. Set to `true` means execute the `npm start` command.   |
+
 
 ## Usage
 
