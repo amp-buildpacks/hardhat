@@ -20,7 +20,7 @@ api = "0.8"
   id = "amp-buildpacks/hardhat"
   keywords = ["Hardhat", "Solidity"]
   sbom-formats = ["application/vnd.cyclonedx+json", "application/vnd.syft+json"]
-  name = "Paketo Buildpack for Hardhat"
+  name = "AMP Buildpack for Hardhat"
   version = "0.1.0"
 
   [[buildpack.licenses]]
